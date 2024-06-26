@@ -18,6 +18,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 24px;
 }
 
 .profile-card {
@@ -89,4 +90,12 @@ main {
 .profile-card__link a:hover {
     background: var(--neon-green);
     color: var(--grey);
+}
+
+@media screen and (max-width:376px) {
+    main {}
+
+    .profile-card {
+        width: 327px;
+    }
 }
